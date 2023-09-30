@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: "Mulish", sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.title{
+    text-align: center;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 500px;
+    padding: 0;
+    list-style: none;
+}
+
+.card{
+    width: 100%;
+    height: 100%;
+    background: red;
+}
+
+.big-card{
+    grid-column: 1/3;
+    
+}
+
+.card__img-wrap{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.card__img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card__btn{
+    position: absolute;
+    top: 20px;
+    left: 0;
+    color: #FFFFFF;
+    background-color: crimson;
+    border: none;
+
+}
